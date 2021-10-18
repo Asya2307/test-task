@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Тестовое задание</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <main>
+            <section class="product__filter">
+                <div class="container">
+                    <div class="common__title-wrap">
+                        <h1 class="common__title">
+                            Our Latest Developments
+                        </h1>
+                    </div>
+                    <div class="filter">
+                        <form class="filter__search">
+                            <span class="filter__search-label">
+                                Filter
+                            </span>
+                            <input type="text" class="common__input js-filter" placeholder="Enter at least 3 characters">
+                        </form>
+                    </div>
+                    <div class="product__wrap">
+                        <div class="common__error js-error">
+                            Nothing found, try again!
+                        </div>
+                        <ul class="product__list js-product">
+                        </ul>
+                    </div>
+                    <div class="see-more">
+                        <button class="see-more__button">
+                            <span>See more</span>
+                            <div class="see-more__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <use xlink:href="/img/sprites/sprite.svg#arr"></use>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>
